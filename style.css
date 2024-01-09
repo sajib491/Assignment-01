@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.banner{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.banner p {
+    font-size: 25px;
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-top: 60px;
+}
+.banner h1 {
+    font-size: 90px;
+    color: antiquewhite;
+    font-family: serif;
+    font-weight: 900;
+    padding-top: 10px;
+}
+.banner-img{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.catagories{
+    text-align: center;
+}
+.catagories h1{
+    padding-top: 30px;
+    font-size: 45px;
+    color: red;
+}
+.catagories h6{
+    font-size: 15px;
+    color: rgb(247, 71, 71);
+}
+.catagories p{
+    font-size: 30px;
+    font-family: sans-serif;
+    font: bold;
+    font-weight: 700;
+}
+.catagories-img{
+    text-align: center;
+}
+
+
+.vectorSection{
+    width: 100%;
+    height: 620px;
+    margin-top: 60px;
+    margin-left: 300px;
+    padding-top: 40px;
+    background-image: url('Vectorrr.png');
+    background-repeat: no-repeat;
+}
+.vector-section-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.vector-text{
+    margin-left: 30px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.vector-text h1{
+    color: antiquewhite;
+    font-size: 90px;
+    font-family: sans-serif;
+    font: bold;
+    font-weight: 700;
+}
+.vector-text p{
+    color: antiquewhite;
+    font-size: 15px;
+    font-family: sans-serif;
+    font: bold;
+    font-weight: 700;
+}
+.vector-btn{
+    background: red;
+    color: white;
+    width: max-content;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.year-photo{
+    transform: translate(-10%, 10%);
+}
+
+
+.box-content{
+    background-color: pink;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 1320px;
+    height: 620px;
+    margin-top: 60px;
+    margin-left: 300px;
+    padding-top: 40px;
+    padding: 12%;
+    border-radius: 15px;
+}
+.btn{
+    padding: 20px 43px;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    background: red;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.text-box{
+    color: red; 
+}
+
+
+.offer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+    height: 60%;
+    margin: 150px 300px;
+    margin-top: 60px;
+    padding-top: 10px;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    padding-top: 20px;
+    padding-right: -40px;
+}
+.offer h6{
+    color: red;
+    font-size: 20px;
+}
+.offer h3{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-weight: 900;
+}
+.offer-img{
+    border: solid red 10px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.offer-year{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+.offer-year h1{
+    color: red;
+    font-size: 40px;
+    font-family: sans-serif;
+    font: bold;
+    font-weight: 700;
+}
+.offer-year img{
+    width: 100px;
+    height: 100px; 
+}
+
+
+.gifts-portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+    height: 60%;
+    margin: 150px 300px;
+    margin-top: 60px;
+    padding-top: 10px;
+}
+.gift-text{
+    text-align: left;
+}
+.gift-text h3{
+    color: red;
+    font-size: 30px; 
+}
+.gift-text h4{
+    font-size: 20px;
+}
+.box-column1{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.box-column2{
+    display: flex;
+    gap: 24px;
+}
+
+
+.subscribe{
+    background: rgb(255, 227, 232);
+    width: 75%;
+    height: 40%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+.search-input{
+    padding: 5%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: white;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    border-radius: 20px;
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button{
+    background: red;
+    padding: 20px 50px;
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.button-subs{
+    padding: 20px 43px;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    background: red;
+}
+
+
+footer{
+    background: black;
+    margin-top: 50px;
+    padding: 20px 140px;
+    color: white;
+}
+.footer-content hr{
+    margin: 30px 0px;
+}
+.footer-content{
+    text-align: center;
+}
+.address{
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.img-icon{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.copyright button{
+    border: 0;
+    background-color: transparent;
+    color: white;
+}
